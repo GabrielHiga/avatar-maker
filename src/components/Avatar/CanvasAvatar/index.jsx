@@ -5,6 +5,7 @@ import { Theme } from '../../../styles/Theme'
 import html2canvas from "html2canvas";
 import { saveAs } from 'file-saver';
 import 'canvas-toBlob';
+import { Button } from "../../../styles/GlobalStyle";
 
 export const CanvasAvatar = ({
     skin,
@@ -50,7 +51,7 @@ export const CanvasAvatar = ({
             </S.WrapImage>
             <input type="color" name="color" value={colorBackground} onChange={handleColorChange}/>
             <label htmlFor="color">Change background color</label>
-            <button onClick={captureDivAsImage}>Download Avatar (.jpg)</button>
+            <Button onClick={captureDivAsImage}>Download avatar (.png)</Button>
         </S.Wrapper>
     )
 }
