@@ -80,5 +80,7 @@ export const Theme =  {
         'src/assets/ex_02.png',
         'src/assets/ex_03.png',
         'src/assets/ex_04.png',
+        'src/assets/ex_05.png',
+        'src/assets/ex_06.png',
     ]
 }
