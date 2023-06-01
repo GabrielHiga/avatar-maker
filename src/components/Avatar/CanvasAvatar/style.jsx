@@ -3,6 +3,17 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
     display: flex; 
     flex-direction: column;
+    position: sticky;
+    top: 0px;
+    margin-top: 45px;
+
+    .wrapChangeColor {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin: 10px 0;
+    }
 `
 
 export const WrapImage = styled.div`

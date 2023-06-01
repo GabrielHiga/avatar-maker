@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { SelectedItem } from "./SelectedItem";
 import * as S from "./style";
 import { Theme } from '../../../styles/Theme'
-import html2canvas from "html2canvas";
-import { saveAs } from 'file-saver';
 import 'canvas-toBlob';
 import { Button } from "../../../styles/GlobalStyle";
 
@@ -19,16 +17,6 @@ export const CanvasAvatar = ({
     const handleColorChange = (e) => {
         setColorBackground(e.target.value);
     }
-
-    const captureDivAsImage = () => {
-        const element = document.getElementById('generatedImage');
-      
-        html2canvas(element).then((canvas) => {
-            canvas.toBlob((blob) => {
-              saveAs(blob, 'my_avatar.png');
-            });
-        });
-    };
 
     return (
         <S.Wrapper>
@@ -49,9 +37,10 @@ export const CanvasAvatar = ({
                     itemSelected={Theme.items.head[head].item}
                     />
             </S.WrapImage>
-            <input type="color" name="color" value={colorBackground} onChange={handleColorChange}/>
-            <label htmlFor="color">Change background color</label>
-            <Button onClick={captureDivAsImage}>Download avatar (.png)</Button>
+            <div className="wrapChangeColor">
+                <label htmlFor="color">🎨 You can change background-color:</label>
+                <input type="color" name="color" value={colorBackground} onChange={handleColorChange}/>
+            </div>
         </S.Wrapper>
     )
 }

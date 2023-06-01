@@ -74,5 +74,11 @@ export const Theme =  {
             { id: 20, item: 'src/assets/head/head_21.png' },
             { id: 21, item: 'src/assets/head/head_22.png' },
         ],
-    }
+    },
+    exemples: [
+        'src/assets/ex_01.png',
+        'src/assets/ex_02.png',
+        'src/assets/ex_03.png',
+        'src/assets/ex_04.png',
+    ]
 }
