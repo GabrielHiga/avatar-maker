@@ -12,7 +12,7 @@ export const CanvasAvatar = ({
     eyes,
     head,
 }) => {
-    const [colorBackground, setColorBackground] = useState('#fff');
+    const [colorBackground, setColorBackground] = useState('#ffffff');
 
     const handleColorChange = (e) => {
         setColorBackground(e.target.value);

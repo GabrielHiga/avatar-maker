@@ -54,7 +54,7 @@ export const Avatar = () => {
                         <ChooseItems title="Clothes" type="clothes" selectItem={setSelectCloth}/>
                         <ChooseItems title="Mounth" type="mounth" selectItem={setSelectMounth}/>
                         <ChooseItems title="Eyes" type="eyes" selectItem={setSelectEyes}/>
-                        <ChooseItems title="Heade" type="head" selectItem={setSelectHead}/>
+                        <ChooseItems title="Head" type="head" selectItem={setSelectHead}/>
                         <Button className="downloadButton" onClick={captureDivAsImage}>Download avatar (.png)</Button>
                     </div>
                 </S.WrapperAvatar>
