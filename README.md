@@ -1,4 +1,4 @@
 # avatar-maker
 Avatar Maker with React.js
 
-![ex_02](https://github.com/GabrielHiga/avatar-maker/assets/32941241/08840f12-916b-454b-ae10-11e77e64f089)
+![127 0 0 1_5173_](https://github.com/GabrielHiga/avatar-maker/assets/32941241/d998389b-088a-428e-9784-6e850e505ee9)
