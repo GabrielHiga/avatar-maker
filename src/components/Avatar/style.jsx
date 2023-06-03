@@ -5,20 +5,22 @@ export const WrapperAvatar = styled.section`
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background: #13e4e4;
+    /* background: #13e4e4; */
     /* flex-wrap: wrap; */
     max-width: 100%;
+    margin-bottom: 100rem;
 
     @media (max-width: 980px) {
         flex-direction: column;
         align-items: center;
+        margin-bottom: 150rem;
     }
 
     .wrapChooseItems {
         width: 50%;
         display: flex;
         max-width: 100%;
-        background: orange;
+        /* background: orange; */
         padding-right: 30rem;
         flex-direction: column;
 
@@ -30,6 +32,11 @@ export const WrapperAvatar = styled.section`
 
         .downloadButton {
             margin: 50rem auto 0;
+
+            @media (max-width: 980px) {
+                position: absolute;
+                bottom: -80rem;
+            }
         }
     }
 `

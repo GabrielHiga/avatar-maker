@@ -9,7 +9,6 @@ export const WrapOptions = styled.div`
     position: relative;
     padding-top: 25rem;
     margin-top: 20rem;
-    background-color: red;
 
     [data-testid="carousel"] {
         div {

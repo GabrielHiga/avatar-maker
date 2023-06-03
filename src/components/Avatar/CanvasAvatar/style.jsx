@@ -5,18 +5,18 @@ export const Wrapper = styled.div`
     width: 50%;
     display: flex; 
     position: sticky;
-    margin-top: 45rem;
-    padding-left: 30rem; 
+    margin: 45rem 0;
     align-items: center;
     flex-direction: column;
-    background-color: white;
-
+    
     @media (max-width: 980px) {
         width: 100%;
         padding: 0;
         z-index: 3;
         padding-top: 30rem;
         bottom: 180rem;
+        margin: 0;
+        background-color: white;
     }
 
     .wrapChangeColor {
@@ -39,14 +39,14 @@ export const WrapImage = styled.div`
     /* background: greenyellow; */
 
     @media (max-width: 1200px) {
-        width: 400rem;
-        height: 400rem;
+        width: 375rem;
+        height: 375rem;
     }
 
-    /* @media (max-width: 980px) {
-        width: 550rem;
-        height: 550rem;
-    } */
+    @media (max-width: 414px) {
+        width: 300rem;
+        height: 300rem;
+    }
 
     img {
         top: 0;

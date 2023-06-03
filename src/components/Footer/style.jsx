@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Footer = styled.footer`
     background: #3c4e66;
-    margin-top: 100rem;
+    /* margin-top: 100rem; */
     padding: 75rem 0;
     
     .wrapButtons {
