@@ -6,13 +6,13 @@ export const Theme =  {
     },
     items: {
         skins: [
-            { id: 0, item:'src/assets/skins/skin.png', },
-            { id: 1, item:'src/assets/skins/skin_01.png', },
-            { id: 2, item:'src/assets/skins/skin_02.png', },
-            { id: 3, item:'src/assets/skins/skin_03.png', },
-            { id: 4, item:'src/assets/skins/skin_04.png', },
-            { id: 5, item:'src/assets/skins/skin_05.png', },
-            { id: 6, item:'src/assets/skins/skin_06.png',
+            { id: 0, item:'assets/skins/skin.png', },
+            { id: 1, item:'assets/skins/skin_01.png', },
+            { id: 2, item:'assets/skins/skin_02.png', },
+            { id: 3, item:'assets/skins/skin_03.png', },
+            { id: 4, item:'assets/skins/skin_04.png', },
+            { id: 5, item:'assets/skins/skin_05.png', },
+            { id: 6, item:'assets/skins/skin_06.png',
         }
         ],
         clothes: [
