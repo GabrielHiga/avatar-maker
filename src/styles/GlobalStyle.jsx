@@ -29,6 +29,10 @@ export const Container = styled.div`
     padding: 0 30rem;
     margin: 0 auto;
     position: relative;
+
+    @media (max-width: 980px) {
+        padding: 0;
+    }
 `
 
 export const Button = styled.button`
@@ -47,5 +51,11 @@ export const Button = styled.button`
     &:hover {
         transform: translate(6rem, 6rem);
         box-shadow: 0rem 0rem 0rem 0rem rgba(0,0,0,0.75);
+    }
+
+    @media (max-width: 414px) {
+        max-width: 80%;
+        padding: 10rem 25rem;
+        font-size: 18rem;
     }
 `

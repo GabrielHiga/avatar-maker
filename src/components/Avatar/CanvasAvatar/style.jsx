@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.div`
-    top: 0rem;
+    top: 30rem;
     width: 50%;
     display: flex; 
     position: sticky;
@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     
     @media (max-width: 980px) {
+        top: 0;
         width: 100%;
         padding: 0;
         z-index: 3;
@@ -17,6 +18,9 @@ export const Wrapper = styled.div`
         bottom: 180rem;
         margin: 0;
         background-color: white;
+        -webkit-box-shadow: 0px 12px 20px 5px rgba(0,0,0,0.08);
+        -moz-box-shadow: 0px 12px 20px 5px rgba(0,0,0,0.08);
+        box-shadow: 0px 12px 20px 5px rgba(0,0,0,0.08);
     }
 
     .wrapChangeColor {
@@ -25,6 +29,11 @@ export const Wrapper = styled.div`
         margin: 10rem 0;
         align-items: center;
         justify-content: center;
+        font-size: 18rem;
+
+        @media (max-width: 768px) {
+            font-size: 12rem;
+        }
     }
 `
 

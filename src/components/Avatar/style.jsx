@@ -20,13 +20,13 @@ export const WrapperAvatar = styled.section`
         width: 50%;
         display: flex;
         max-width: 100%;
-        /* background: orange; */
         padding-right: 30rem;
         flex-direction: column;
+        /* background: orange; */
 
         @media (max-width: 980px) {
             width: 100%;
-            padding: 0;
+            padding: 0 20rem;
             align-items: center;
         }
 

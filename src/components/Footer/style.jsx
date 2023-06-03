@@ -12,40 +12,48 @@ export const Footer = styled.footer`
         padding: 0 0 50rem;
     }
 
-    p {
-        font-size: 16rem;
+    .wrapCreators {
         display: flex;
-        color: #fff;
-        align-items: center;
         justify-content: center;
+        gap: 20rem 10rem;
+        flex-wrap: wrap;
 
-        a {
-            text-decoration: none;
-            margin: 0 10rem;
+        p {
+            font-size: 16rem;
+            display: flex;
             color: #fff;
-            padding: 5rem 10rem;
-            border: 2rem solid white;
-            border-radius: 10rem;
-            transition: all ease 0.4s;
+            align-items: center;
+            justify-content: center;
 
-            &:hover {
-                background: #ffffff28;
+            a {
+                text-decoration: none;
+                margin: 0 10rem;
+                color: #fff;
+                padding: 5rem 10rem;
+                border: 2rem solid white;
+                border-radius: 10rem;
+                transition: all ease 0.4s;
+
+                &:hover {
+                    background: #ffffff28;
+                }
             }
-        }
 
-        span {
-            width: 45rem;
-            height: 45rem;
-            border-radius: 50%;
-            overflow: hidden;
-            display: inline-block;
-            margin: 0 10rem;
+            span {
+                width: 45rem;
+                height: 45rem;
+                border-radius: 50%;
+                overflow: hidden;
+                display: inline-block;
+                margin: 0 10rem;
 
-            img {
-                width: 100%;
-                height: 100%;
-                transform: scale(1.25);
+                img {
+                    width: 100%;
+                    height: 100%;
+                    transform: scale(1.25);
+                }
             }
         }
     }
+    
 `

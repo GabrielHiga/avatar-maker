@@ -11,7 +11,10 @@ export const Footer = () => {
                     <Button>Github repository</Button>
                     <Button>File (figma)</Button>
                 </div> */}
-                <p>Design by <a target="_blank" href="https://www.pacovqzz.com/">Paco Vazquez</a> & Code by <a target="_blank" href="#">Gabriel Hideki</a></p>
+                <div className="wrapCreators">
+                    <p>Design by <a target="_blank" href="https://www.pacovqzz.com/">Paco Vazquez</a></p>
+                    <p>Code by <a target="_blank" href="#">Gabriel Hideki</a></p>
+                </div>
             </Container>
         </S.Footer>
     )
