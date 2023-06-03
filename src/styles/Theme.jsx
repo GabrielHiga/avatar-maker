@@ -1,9 +1,9 @@
 
-const teste = '../../assets/skins/skin.png';
-const teste2 = '/../assets/skins/skin.png';
-const teste3 = '../assets/skins/skin.png';
-const teste4 = './assets/skins/skin.png';
-const teste5 = 'assets/skins/skin.png';
+const teste = 'src/assets/skins/skin_05.png';
+const teste2 = 'src/assets/skins/skin_05.png';
+const teste3 = 'src/assets/skins/skin_05.png';
+const teste4 = 'src/assets/skins/skin_05.png';
+const teste5 = 'src/assets/skins/skin_05.png';
 
 export const Theme =  {
     colors: {
