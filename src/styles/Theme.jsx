@@ -6,11 +6,11 @@ export const Theme =  {
     },
     items: {
         skins: [
-            { id: 0, item:'assets/skins/skin.png', },
-            { id: 1, item:'assets/skins/skin_01.png', },
+            { id: 0, item:'skins/skin.png', },
+            { id: 1, item:'/skins/skin_01.png', },
             { id: 2, item:'assets/skins/skin_02.png', },
-            { id: 3, item:'assets/skins/skin_03.png', },
-            { id: 4, item:'assets/skins/skin_04.png', },
+            { id: 3, item:'images/skins/skin_03.png', },
+            { id: 4, item:'/imagens/skins/skin_04.png', },
             { id: 5, item:'assets/skins/skin_05.png', },
             { id: 6, item:'assets/skins/skin_06.png',
         }
