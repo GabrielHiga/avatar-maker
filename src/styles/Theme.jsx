@@ -1,9 +1,5 @@
 
-const teste = 'src/assets/skins/skin_05.png';
-const teste2 = 'src/assets/skins/skin_05.png';
-const teste3 = 'src/assets/skins/skin_05.png';
-const teste4 = 'src/assets/skins/skin_05.png';
-const teste5 = 'src/assets/skins/skin_05.png';
+import teste from '../assets/skins/skin_05.png';
 
 export const Theme =  {
     colors: {
@@ -14,10 +10,10 @@ export const Theme =  {
     items: {
         skins: [
             { id: 0, item: teste, },
-            { id: 1, item: teste2, },
-            { id: 2, item: teste3, },
-            { id: 3, item: teste4, },
-            { id: 4, item: teste5, },
+            { id: 1, item: teste, },
+            { id: 2, item: teste, },
+            { id: 3, item: teste, },
+            { id: 4, item: teste, },
             { id: 5, item:'src/assets/skins/skin_05.png', },
             { id: 6, item:'src/assets/skins/skin_06.png',
         }
