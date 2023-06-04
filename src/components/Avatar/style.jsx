@@ -58,6 +58,10 @@ export const WrapTitle = styled.div`
         overflow: hidden;
         border: 2rem solid #000;
 
+        @media (max-width: 980px) {
+            display: none;
+        }
+
         img {
             width: 100%;
             height: 100%;
